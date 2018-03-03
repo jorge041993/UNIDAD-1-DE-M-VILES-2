@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    tools:context="com.example.george.eva1_6_fragments_tablet.Principal">
+
+    <fragment
+        android:id="@+id/fragmento_1"
+        android:name="com.example.george.eva1_6_fragments_tablet.UnoFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragmento_2"
+        android:name="com.example.george.eva1_6_fragments_tablet.DosFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
+
+
+</LinearLayout>
